@@ -7,9 +7,9 @@ def main():
 	VIDEO_WIDTH = 1920
 	VIDEO_HEIGHT = 1080
 
-	sub1_pos = [0   , 0, 640, 1080]
-	sub2_pos = [640 , 0, 640, 1080]
-	sub3_pos = [1280, 0, 640, 1080]
+	sub1_pos = [324, 826, 1100, 233]
+	sub2_pos = [1457, 175, 445, 215]
+	sub3_pos = [1457, 423, 445, 638]
 
 	background_img = read_background_img("background.png")
 	sub1_text = read_sub_text("subs1.csv")
@@ -29,7 +29,7 @@ def main():
 	sub3_time[-1][1] = total_time
 
 	clip_video = view_background_img(background_img, VIDEO_WIDTH, VIDEO_HEIGHT, total_time)
-	clip_video = view_video(clip_video, video, 640, 360, 640, 360, total_time)
+	clip_video = view_video(clip_video, video, 0, 0, 1444, 811, total_time)
 	clip_video = view_sub_text(clip_video, sub1_text, sub1_pos[0], sub1_pos[1], sub1_pos[2], sub1_pos[3], sub1_time)
 	clip_video = view_sub_text(clip_video, sub2_text, sub2_pos[0], sub2_pos[1], sub2_pos[2], sub2_pos[3], sub2_time)
 	clip_video = view_sub_text(clip_video, sub3_text, sub3_pos[0], sub3_pos[1], sub3_pos[2], sub3_pos[3], sub3_time)
