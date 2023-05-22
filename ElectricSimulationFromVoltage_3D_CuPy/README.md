@@ -3,14 +3,11 @@
 SET_VOLTS.csvの設定に基づいて、空間中の電圧と電界をシミュレーションします。
 シミュレーション結果はdataフォルダの中に保存されます。
  
-# DEMO
+# シミュレーション例
 
-空間の電圧分布 
+空間の電圧分布
+
 ![demo](https://raw.githubusercontent.com/ShiraoTakuya/Python_Repositories/main/ElectricSimulationFromVoltage_3D_CuPy/canvas_electric_voltage_z0050_10000.png)
- 
-# Features
- 
-"hoge"のセールスポイントや差別化などを説明する
  
 # Requirement
  
@@ -28,8 +25,8 @@ SET_VOLTS.csvの設定に基づいて、空間中の電圧と電界をシミュ�
 # Usage
 
 以下にシミュレーションしたい条件を指定する
-　SET.INI //空間の大きさなど指定
-　SET_VOLTS.csv //電極の位置と電圧を指定
+* SET.INI //空間の大きさなど指定
+* SET_VOLTS.csv //電極の位置と電圧を指定
 
 以下のコマンドでシミュレーションを実行する。
  
