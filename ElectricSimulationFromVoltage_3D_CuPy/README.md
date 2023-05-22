@@ -5,7 +5,10 @@ SET_VOLTS.csvの設定に基づいて、空間中の電圧と電界をシミュ�
  
 # シミュレーション例
 
-空間の電圧分布
+100x100x100mmの空間のZ=50mmの断面の電圧分布
+白色: 1V
+灰色: 0V
+黒色: -1V
 
 ![demo](https://raw.githubusercontent.com/ShiraoTakuya/Python_Repositories/main/ElectricSimulationFromVoltage_3D_CuPy/canvas_electric_voltage_z0050_10000.png)
  
